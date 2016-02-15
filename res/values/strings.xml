@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CustomImageViewSample001</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="reset">リセット</string>
+    <string name="result"></string>
+    <string name="title">○×ゲーム</string>
+
+</resources>

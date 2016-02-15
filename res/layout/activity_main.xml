@@ -1,0 +1,146 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#f0e68c"
+    tools:context="jp.ac.hal.customimageviewsample001.MainActivity" >
+
+    <TableRow
+        android:id="@+id/titleRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/gameRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <jp.ac.hal.customimageviewsample001.CustomImageView
+            android:id="@+id/gameR0C0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp" 
+            android:src="@drawable/blank"/>
+
+        <jp.ac.hal.customimageviewsample001.CustomImageView
+            android:id="@+id/gameR0C1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp" 
+            android:src="@drawable/blank"/>
+
+        <jp.ac.hal.customimageviewsample001.CustomImageView
+            android:id="@+id/gameR0C2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:src="@drawable/blank" 
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/gameRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <jp.ac.hal.customimageviewsample001.CustomImageView
+            android:id="@+id/gameR1C0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:src="@drawable/blank" />
+
+        <jp.ac.hal.customimageviewsample001.CustomImageView
+            android:id="@+id/gameR1C1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:src="@drawable/blank" />
+
+        <jp.ac.hal.customimageviewsample001.CustomImageView
+            android:id="@+id/gameR1C2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/gameRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <jp.ac.hal.customimageviewsample001.CustomImageView
+            android:id="@+id/gameR2C0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:src="@drawable/blank" />
+
+        <jp.ac.hal.customimageviewsample001.CustomImageView
+            android:id="@+id/gameR2C1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:src="@drawable/blank" />
+
+        <jp.ac.hal.customimageviewsample001.CustomImageView
+            android:id="@+id/gameR2C2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:src="@drawable/blank" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/resetRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/resetbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/resultRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/resulttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="result" />
+
+    </TableRow>
+
+</TableLayout>
